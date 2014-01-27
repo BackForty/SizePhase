@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B222661896E46500EDE504 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B222651896E46500EDE504 /* Cocoa.framework */; };
+		83B222701896E46500EDE504 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83B2226E1896E46500EDE504 /* InfoPlist.strings */; };
+		83B222721896E46500EDE504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B222711896E46500EDE504 /* main.m */; };
+		83B222761896E46500EDE504 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 83B222741896E46500EDE504 /* Credits.rtf */; };
+		83B222791896E46500EDE504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B222781896E46500EDE504 /* AppDelegate.m */; };
+		83B2227C1896E46500EDE504 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B2227A1896E46500EDE504 /* MainMenu.xib */; };
+		83B2227E1896E46500EDE504 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B2227D1896E46500EDE504 /* Images.xcassets */; };
+		83B222851896E46500EDE504 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B222841896E46500EDE504 /* XCTest.framework */; };
+		83B222861896E46500EDE504 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B222651896E46500EDE504 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B222871896E46500EDE504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B2225A1896E46500EDE504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B222611896E46500EDE504;
+			remoteInfo = "Sizing Phase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83B222621896E46500EDE504 /* Sizing Phase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sizing Phase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B222651896E46500EDE504 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		83B222681896E46500EDE504 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		83B222691896E46500EDE504 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		83B2226A1896E46500EDE504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83B2226D1896E46500EDE504 /* Sizing Phase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sizing Phase-Info.plist"; sourceTree = "<group>"; };
+		83B2226F1896E46500EDE504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83B222711896E46500EDE504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83B222731896E46500EDE504 /* Sizing Phase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sizing Phase-Prefix.pch"; sourceTree = "<group>"; };
+		83B222751896E46500EDE504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		83B222771896E46500EDE504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83B222781896E46500EDE504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83B2227B1896E46500EDE504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		83B2227D1896E46500EDE504 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83B222831896E46500EDE504 /* Sizing PhaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sizing PhaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B222841896E46500EDE504 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B2225F1896E46500EDE504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B222661896E46500EDE504 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B222801896E46500EDE504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B222861896E46500EDE504 /* Cocoa.framework in Frameworks */,
+				83B222851896E46500EDE504 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B222591896E46500EDE504 = {
+			isa = PBXGroup;
+			children = (
+				83B2226B1896E46500EDE504 /* Sizing Phase */,
+				83B222641896E46500EDE504 /* Frameworks */,
+				83B222631896E46500EDE504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B222631896E46500EDE504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B222621896E46500EDE504 /* Sizing Phase.app */,
+				83B222831896E46500EDE504 /* Sizing PhaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B222641896E46500EDE504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B222651896E46500EDE504 /* Cocoa.framework */,
+				83B222841896E46500EDE504 /* XCTest.framework */,
+				83B222671896E46500EDE504 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83B222671896E46500EDE504 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B222681896E46500EDE504 /* AppKit.framework */,
+				83B222691896E46500EDE504 /* CoreData.framework */,
+				83B2226A1896E46500EDE504 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		83B2226B1896E46500EDE504 /* Sizing Phase */ = {
+			isa = PBXGroup;
+			children = (
+				83B222771896E46500EDE504 /* AppDelegate.h */,
+				83B222781896E46500EDE504 /* AppDelegate.m */,
+				83B2227A1896E46500EDE504 /* MainMenu.xib */,
+				83B2227D1896E46500EDE504 /* Images.xcassets */,
+				83B2226C1896E46500EDE504 /* Supporting Files */,
+			);
+			path = "Sizing Phase";
+			sourceTree = "<group>";
+		};
+		83B2226C1896E46500EDE504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83B2226D1896E46500EDE504 /* Sizing Phase-Info.plist */,
+				83B2226E1896E46500EDE504 /* InfoPlist.strings */,
+				83B222711896E46500EDE504 /* main.m */,
+				83B222731896E46500EDE504 /* Sizing Phase-Prefix.pch */,
+				83B222741896E46500EDE504 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B222611896E46500EDE504 /* Sizing Phase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B222931896E46500EDE504 /* Build configuration list for PBXNativeTarget "Sizing Phase" */;
+			buildPhases = (
+				83B2225E1896E46500EDE504 /* Sources */,
+				83B2225F1896E46500EDE504 /* Frameworks */,
+				83B222601896E46500EDE504 /* Resources */,
+				83B2229A1896EE3600EDE504 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sizing Phase";
+			productName = "Sizing Phase";
+			productReference = 83B222621896E46500EDE504 /* Sizing Phase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83B222821896E46500EDE504 /* Sizing PhaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B222961896E46500EDE504 /* Build configuration list for PBXNativeTarget "Sizing PhaseTests" */;
+			buildPhases = (
+				83B2227F1896E46500EDE504 /* Sources */,
+				83B222801896E46500EDE504 /* Frameworks */,
+				83B222811896E46500EDE504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B222881896E46500EDE504 /* PBXTargetDependency */,
+			);
+			name = "Sizing PhaseTests";
+			productName = "Sizing PhaseTests";
+			productReference = 83B222831896E46500EDE504 /* Sizing PhaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B2225A1896E46500EDE504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Back Forty";
+				TargetAttributes = {
+					83B222821896E46500EDE504 = {
+						TestTargetID = 83B222611896E46500EDE504;
+					};
+				};
+			};
+			buildConfigurationList = 83B2225D1896E46500EDE504 /* Build configuration list for PBXProject "Sizing Phase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B222591896E46500EDE504;
+			productRefGroup = 83B222631896E46500EDE504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B222611896E46500EDE504 /* Sizing Phase */,
+				83B222821896E46500EDE504 /* Sizing PhaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B222601896E46500EDE504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B222701896E46500EDE504 /* InfoPlist.strings in Resources */,
+				83B2227E1896E46500EDE504 /* Images.xcassets in Resources */,
+				83B222761896E46500EDE504 /* Credits.rtf in Resources */,
+				83B2227C1896E46500EDE504 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B222811896E46500EDE504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83B2229A1896EE3600EDE504 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${SRCROOT}/Images/Originals\"\n\nfor f in *.jpg\ndo\n    cp $f \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tiny-$f\"\n    cp $f \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Small-$f\"\n    cp $f \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Medium-$f\"\n    cp $f \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Large-$f\"\ndone\n\ncd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\nsips -Z 50 Tiny-*.jpg\nsips -Z 100 Small-*.jpg\nsips -Z 200 Medium-*.jpg\nsips -Z 300 Large-*.jpg";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B2225E1896E46500EDE504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B222791896E46500EDE504 /* AppDelegate.m in Sources */,
+				83B222721896E46500EDE504 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B2227F1896E46500EDE504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B222881896E46500EDE504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B222611896E46500EDE504 /* Sizing Phase */;
+			targetProxy = 83B222871896E46500EDE504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83B2226E1896E46500EDE504 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B2226F1896E46500EDE504 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83B222741896E46500EDE504 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B222751896E46500EDE504 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		83B2227A1896E46500EDE504 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B2227B1896E46500EDE504 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83B222911896E46500EDE504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83B222921896E46500EDE504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83B222941896E46500EDE504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sizing Phase/Sizing Phase-Prefix.pch";
+				INFOPLIST_FILE = "Sizing Phase/Sizing Phase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83B222951896E46500EDE504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sizing Phase/Sizing Phase-Prefix.pch";
+				INFOPLIST_FILE = "Sizing Phase/Sizing Phase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83B222971896E46500EDE504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sizing Phase.app/Contents/MacOS/Sizing Phase";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sizing Phase/Sizing Phase-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sizing PhaseTests/Sizing PhaseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		83B222981896E46500EDE504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sizing Phase.app/Contents/MacOS/Sizing Phase";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sizing Phase/Sizing Phase-Prefix.pch";
+				INFOPLIST_FILE = "Sizing PhaseTests/Sizing PhaseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B2225D1896E46500EDE504 /* Build configuration list for PBXProject "Sizing Phase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B222911896E46500EDE504 /* Debug */,
+				83B222921896E46500EDE504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B222931896E46500EDE504 /* Build configuration list for PBXNativeTarget "Sizing Phase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B222941896E46500EDE504 /* Debug */,
+				83B222951896E46500EDE504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B222961896E46500EDE504 /* Build configuration list for PBXNativeTarget "Sizing PhaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B222971896E46500EDE504 /* Debug */,
+				83B222981896E46500EDE504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B2225A1896E46500EDE504 /* Project object */;
+}
